@@ -6,6 +6,3 @@ def magic_calculation(a, b, c):
         return (a + b)
     else:
         return (a * b - c)
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
