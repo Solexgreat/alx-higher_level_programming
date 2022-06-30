@@ -5,4 +5,4 @@ if __name__ == "__main__":
     for i in sys.argv:
         if i != sys.argv[0]:
             tot += int(i)
-    print(tot)    
+    print(tot)
