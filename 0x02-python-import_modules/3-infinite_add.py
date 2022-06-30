@@ -5,7 +5,7 @@ if __name__ == "__main__":
     tot = 0
     if n != 0:
     for i in sys.argv:
-        tot += int(i)
-    print("{}".format(tot))
+        if i != sys.argv[0]:
+            tot += int(i)
     else:
-        print("{}".format(tot))    
+    print(tot)    
