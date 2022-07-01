@@ -7,7 +7,7 @@ if __name__ == "__main__":
     else:
         if n == 1:
             print("{} argument:".format(n))
-        if n > 1:
+        else:
              print("{} arguments:".format(n))
              n += 1
         for i in range(n):
