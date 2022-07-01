@@ -8,7 +8,7 @@ if __name__ == "__main__":
         if n == 1:
             print("{} argument:".format(n))
         else:
-             print("{} arguments:".format(n))
+            print("{} arguments:".format(n))
              n += 1
         for i in range(n):
             if i != 0:
