@@ -6,7 +6,10 @@ if __name__ == "__main__":
         print("{} arguments.".format(n))
     else:
         n = len(sys.argv) -1
-        print("{} {}:".format(n, "argument" if n == 1 else "arguments"))
+        if n == 1:
+        print("{} {}:".format(n, argument))
+        if n > 1:
+        print("{} {}:".format(n, arguments))
         for i in sys.argv:
             n = 1
             print("{}: {}".format(n, i))
