@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 def no_c(my_string):
     newSt = my_string[:]
     j = 0
