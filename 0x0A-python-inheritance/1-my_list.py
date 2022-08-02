@@ -6,7 +6,10 @@ class MyList(list):
 
     Args:
         list: Class list
+
+
     """
+
     def print_sorted(self):
         """ Method that prints the sorted list """
         SortList = self.copy()
