@@ -8,6 +8,7 @@ class MyList(list):
         list: Class list
     """
     def print_sorted(self):
+        """ Method that prints the sorted list """
         SortList = []
         for i in self:
             SortList.append(i)
