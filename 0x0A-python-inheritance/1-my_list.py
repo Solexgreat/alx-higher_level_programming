@@ -3,7 +3,7 @@
 
 
 class MyList(list):
-    """ Class that inherit the attribute from class list 
+    """ Class that inherit the attribute from class list
 
     Args:
         list: Class list
