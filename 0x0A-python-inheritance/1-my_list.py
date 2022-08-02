@@ -10,7 +10,5 @@ class MyList(list):
     def print_sorted(self):
         """ Method that prints the sorted list """
         SortList = self.copy
-        for i in self:
-            SortList.append(i)
         SortList.sort
         print(SortList)

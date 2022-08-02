@@ -2,13 +2,13 @@
 """Defines an object attribute lookup function"""
 
 def lookup(obj):
-    """The function return the list of method in the objects
+    """Function return the list of methods in the objects
 
     Args:
         obj: instance of a class
 
     Return:
-        List of method
+        List of methods
 
     """
 
