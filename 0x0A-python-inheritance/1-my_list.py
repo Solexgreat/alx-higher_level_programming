@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Creating a class called MyList"""
 
+
 class MyList(list):
     """ Class that inherit the attribute from class list 
 
