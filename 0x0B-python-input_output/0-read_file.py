@@ -10,11 +10,10 @@ def read_file(filename=""):
         filename: filename
 
     Raise:
-         Exception: when the file can't be open
+        Exception: when the file can't be open
 
     """
 
-
     with open(filename, encoding="utf-8") as myfile:
-        file = myfile.read()
-        print(file, end='')
+        filee = myfile.read()
+        print(filee, end='')

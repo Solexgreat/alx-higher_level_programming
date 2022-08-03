@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-module that contain function that appends to a file 
+module that contain function that appends to a file
 """
 
 
@@ -15,7 +15,6 @@ def write_file(filename="", text=""):
          Exception: when the file can't be opened
 
     """
-
 
     with open(filename, mode="w", encoding="utf-8") as myfile:
         return myfile.write(text)

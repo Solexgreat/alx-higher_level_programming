@@ -16,7 +16,8 @@ mylist = []
 if os.path.exists("add_item.json"):
     load_file("add_item.json")
 
-for i in range(len(sys.argv - 1)):
+n = len(sys.argv)
+for i in range(n):
     if i != 0:
         mylist.append(sys.argv[i])
 
