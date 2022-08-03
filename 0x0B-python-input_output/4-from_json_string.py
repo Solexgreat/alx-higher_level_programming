@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 """
 module that contain function that deserilize Json string to Python obj
 """

@@ -12,8 +12,8 @@ def append_write(filename="", text=""):
         text: text to be added
 
     Raise:
-         Exception: when the file can't be opened 
-    
+        Exception: when the file can't be opened
+
     """
 
     with open(filename, 'a', encoding="utf-8") as myfile:

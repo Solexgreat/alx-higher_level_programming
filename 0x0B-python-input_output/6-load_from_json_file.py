@@ -14,7 +14,7 @@ def load_from_json_file(filename):
        filename: The JSON file
 
     Raise:
-        Exception: when the file can't be opened
+       Exception: when the file can't be opened
 
     """
 

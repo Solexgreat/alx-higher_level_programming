@@ -15,7 +15,7 @@ def save_to_json_file(my_obj, filename):
        filename: The file it should be saved to
 
     Raise:
-        Exception: when the file can't be opened
+       Exception: when the file can't be opened
 
     """
 

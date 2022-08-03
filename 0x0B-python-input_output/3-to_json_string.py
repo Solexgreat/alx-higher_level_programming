@@ -1,4 +1,4 @@
-#!usr/bin/python3
+#!/usr/bin/python3
 """
 module that contain function that serilize Python obj to 
 a Json string 
