@@ -10,11 +10,14 @@ def to_json_string(my_obj):
     """
     Function that convert a python object to a JSON string
 
+
     Args:
         my_obj: The python object
 
+
     Raise:
         Exception: when the file can't be opened
+
 
     """
 
