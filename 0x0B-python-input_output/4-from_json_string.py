@@ -13,9 +13,8 @@ def from_json_string(my_str):
        my_str: The string
 
     Raise:
-         Exception: when the file can't be opened
+       Exception: when the file can't be opened
 
     """
 
-
-    json.loads(my_str)
+    return json.loads(my_str)
