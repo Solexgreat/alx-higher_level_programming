@@ -4,7 +4,7 @@ module that contain function that add argument to a python
 list and save them to a json file
 """
 import sys
-import os
+import os.path
 import save_to_json_file from 5-save_to_json_file.py
 import load_from_json_file from 6-load_from_json_file.py
 
