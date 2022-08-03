@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-module that contain function that appends to a file 
+module that contain function that appends to a file
 """
 
 
