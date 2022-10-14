@@ -11,9 +11,9 @@ if __name__ == '__main__':
                         db=sys.argv[3], port=3306)
 
     C=db.cursor()
-    C.execute("SELECT cities.name \
+    C.execute("SELECT cities.id, cities.name, states.id \
     FROM cities JOIN states ON cities.state_id = states.id \
     WHERE states.name = %s;", (sys.argv[4],))
     states = C.fetchall()
 
-    print(", ".join([state[0] for state in states]))
+    print(", ".join([state[1] for state in states]))
